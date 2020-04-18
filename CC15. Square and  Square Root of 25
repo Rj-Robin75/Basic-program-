@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  double a=25, result1, result2;
+  result1=pow(a,2);
+    printf("square=%.2lf \n",result1);
+  result2=sqrt(a);
+    printf("square root=%.2lf \n",result2);
+   return 0;
+}
