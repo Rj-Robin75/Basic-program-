@@ -1,0 +1,9 @@
+
+#include<stdio.h>
+int main ()
+{
+ printf("\n Name:Robiul Islam Robin");
+ printf("\n Birth:6 April,1999");
+ printf("\n Mobile:01956303733");
+ return o ;
+}
