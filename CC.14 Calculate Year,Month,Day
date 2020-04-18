@@ -1,0 +1,14 @@
+include<stdio.h>
+int main()
+{
+  int d=2535,Y ,M,D,i;
+   Y=d/365;
+     printf("year=%d \n",Y);
+   i=d%365;
+   M=i/30;
+     printf("month=%d \n",M);
+   D=i%30;
+     printf("days=%d \n",D);
+ return 0;
+
+}
