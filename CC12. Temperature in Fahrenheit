@@ -1,0 +1,9 @@
+include<stdio.h>
+#include<math.h>
+int main ()
+{
+  float C=36.5,F ;
+  F=(9*C+160)/5;
+  printf("temp=%.2f F",F);
+  return 0;
+}
