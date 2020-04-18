@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  double salary;
+   salary=8000+(8000*20/100);
+   printf("salary=%.2lf tk",salary);
+  return 0;
+}
