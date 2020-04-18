@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+ int main()
+ {
+     float bangla=78, english=81 ,math= 90 , physics= 75 , chemistry=73, avarage ;
+
+    avarage=(bangla+english+math+physics+chemistry)/5;
+
+     printf("avarage=%.2f",avarage);
+  return 0;
+
+
+ }
