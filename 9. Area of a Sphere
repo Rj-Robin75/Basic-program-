@@ -1,0 +1,10 @@
+include<stdio.h>
+#include<math.h>
+ int main()
+{
+
+ double r=3, pi=3.1416, area ;
+  area=4*pi*pow(r,2);
+ printf("area = %.4lf",area);
+ return 0;
+}
