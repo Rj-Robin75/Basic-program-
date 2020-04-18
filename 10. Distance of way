@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+   float displacement=350, oil=5, distance ;
+   distance=displacement/oil ;
+   printf("distance=%.2f km",distance);
+  return 0;
+}
