@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int s=25300, H,i,M,S;
+   H=s/3600;
+     printf("Hours=%d \n",H);
+   i=s%3600;
+   M=i/60;
+     printf("minute=%d \n",M);
+   S=i%60;
+     printf("Second=%d \n",S);
+ return 0;
+
+}
