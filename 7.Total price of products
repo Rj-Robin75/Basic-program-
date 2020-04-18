@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  float potato,brinjal,Total ;
+  potato=3*30;
+  brinjal=2*20;
+  Total=potato+brinjal;
+  printf("total=%.2f tk",Total);
+  return 0;
+}
