@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int h=7 , w=5 , perimete, area ;
+ perimete = 2*(h+w);
+ printf("\n the perimete of the rectangular is %d",perimete);
+area=h*w ;
+ printf("\n the area of the rectangular is %d", area);
+
+ return 0;
+
+}
