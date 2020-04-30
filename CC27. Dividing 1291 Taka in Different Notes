@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+  int a=1291,result1,z1,result2,z2,result3,z3,result4,z4,result5,z5,result6,z6,result7 ;
+ result1= a/100;
+     printf("100 tk Note=%d\n",result1);
+   z1=a%100;
+ result2= z1/50 ;
+     printf("50 tk Note=%d\n",result2);
+   z2=a%50;
+ result3= z2/20;
+     printf("20 tk Note=%d\n",result3);
+ z3=a%10;
+ result4=z3/10;
+     printf("10 tk Note=%d\n",result4);
+ z4=a%5;
+ result5=z4/5;
+     printf("5 tk note=%d\n",result5);
+ z5=a%2;
+ result6=z5/2;
+     printf("2 tk note=%d\n",result6);
+ z6=a%2;
+ result7=z6/1;
+     printf("1 tk note=%d\n",result7);
+return 0;
+}
