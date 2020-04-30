@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+   char  ch='D';
+   printf("The ASCII character is %c\n",ch);
+   printf("The ASCII  number is %d\n",ch);
+
+   return 0;
+
+}
