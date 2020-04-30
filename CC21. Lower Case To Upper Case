@@ -1,0 +1,8 @@
+include<stdio.h>
+int main()
+{
+    char lower='a';
+    printf("lower case is %c\n",lower);
+    printf("upper case is %c\n",lower-32);
+    return 0;
+}
