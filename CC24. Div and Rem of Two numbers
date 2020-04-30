@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+ int a=9 , b=2 ,div , rem;
+  printf("the first number=%d \n",a);
+  printf("the second number=%d \n",b);
+  div=a/b;
+  printf("div = %d\n",div);
+  rem=a%b;
+  printf("rem = %d\n",rem);
+  return 0;
+}
