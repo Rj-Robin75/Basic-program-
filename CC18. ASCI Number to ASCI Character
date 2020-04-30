@@ -1,0 +1,11 @@
+include<stdio.h>
+int main()
+{
+   char n=67;
+    printf("The ASCII  number is %d\n",n);
+   printf("The ASCII character is %c\n",n);
+
+   return 0;
+
+}
+
