@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+  int rony=10,jony=5,z;
+   printf("Rony=%d\n",rony);
+   printf("Jony=%d\n",jony);
+    z=rony;
+    rony=jony;
+    jony=z;
+   printf("Rony=%d\n",rony);
+   printf("Jony=%d\n",jony);
+ return 0;
+}
